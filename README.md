@@ -36,3 +36,16 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+
+
+### git提交命令
+
+```sh
+git init  (1)初始化仓库
+git add .  (2)提交你要提交的文件名称 ，add后面更文件的名称 ，.的意思就是所有文件
+git commit -m "备注信息"  (3)这次提交所修改的注释，就是记录你这次提交修改了哪些东西，"第一次提交" 就是说这是第一次提交的记录
+git remote add origin gitee代码仓库网址  (4)定位到gitee代码仓库
+git push origin master  (5)提交到远程主分支上
+```
